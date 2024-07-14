@@ -73,7 +73,7 @@ The application features a minimalist design with a high-contrast color scheme, 
 
 ## 🔗 Live Demo
 
-Check out the live demo of the application https://cathe1905.github.io/DEV014-text-analyzer/src.
+Check out the live demo of the application https://cathe1905.github.io/Live-Text-Metrics-App/src/.
 
 ## 📧 Contact
 
