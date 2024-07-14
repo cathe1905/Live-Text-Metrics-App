@@ -1,0 +1,132 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 70%;
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 120rem;
+    width: 90%;
+}
+
+header {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    color: #ab0889;
+    display: flex;
+    justify-content: center;
+    
+}
+@media (min-width: 768px) {
+    header {
+        font-size: 3rem;
+        justify-content:last baseline;
+        margin-bottom: 4rem;
+        font-size: 3rem;
+    }
+}
+h1 {
+    margin-right: 4rem;
+}
+@media (min-width: 768px) {
+    h1 {
+        margin-right: 8rem;
+    } 
+}
+
+ul {
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    ul {
+        grid-template-columns: repeat(3, 300px) ;
+        justify-content: center;
+    }
+}
+
+label {
+    background-image: url(https://cdn.icon-icons.com/icons2/1633/PNG/512/52784artistpalette_109372.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+select {
+    display: none;
+}
+select > option {
+    color: gray
+}
+
+.items1, .items2, .items3 {
+    list-style: none;
+    background-color: white;
+    border: 2px;
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px ) {
+    .items1, .items2, .items3 {
+        font-size: 2rem;
+    }
+}
+
+textarea[name="user-input"] {
+    background-color: white; 
+    font-size: 2rem;   
+    padding: 1rem;
+   
+}
+
+@media (min-width: 768px) {
+    textarea[name="user-input"] {
+        width: 400px;
+        height: 130px;
+    } 
+}
+
+div {
+    border: 2px solid  #ab0889;
+    margin-top: 2rem;
+}
+
+#reset-button {
+    background-color: #ff83ec;
+    color: black;
+    font-weight: bold;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: right;
+    margin-right: .5rem;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}

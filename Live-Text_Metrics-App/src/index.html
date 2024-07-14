@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css"/>
+  
+</head>
+
+<div>
+  <header>
+    <h1>Analizador de texto</h1>
+    <form>
+      <label for="color"></label> 
+        <select name="color" id="color">
+          <option value="Rosa">Rosa</option>
+          <option value="Azul">Azul</option>
+          <option value="Verde">Verde</option>
+        </select>
+    </form>
+    
+  </header>
+  
+  <body>
+  
+    <main>
+      
+        <ul>
+          <li data-testid="character-count" class="items1">Carácteres</li>
+          <li data-testid="character-no-spaces-count" class="items2">Carácteres sin espacios</li>
+          <li data-testid="word-count" class="items3">Palabras</li>
+          <li data-testid="number-count" class="items3">Números</li>
+          <li data-testid="number-sum" class="items1">Suma números</li>
+          <li data-testid="word-length-average" class="items2">Promedio longitud</li>
+        </ul>
+    
+      <form action="">
+        <textarea name="user-input"></textarea>
+        <button id="reset-button" type="reset">Limpiar métricas</button>
+      </form>
+      
+    </main>
+  
+    <footer>
+      <p>Autora: Catherin Romero</p>
+    </footer>
+  
+    <script src="index.js" type="module"></script>
+  </body>
+</div>
+
+
+
+
+</html>
